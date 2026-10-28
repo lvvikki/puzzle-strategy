@@ -1,4 +1,4 @@
-<title>Puzzle Strategy</title>
+<title>Viktor Zemene</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <style>
   /* Layout: single calm column, generous rhythm; sticky slim nav; grounded moss-on-stone palette */
@@ -229,7 +229,7 @@
 
 <header class="nav">
   <div class="wrap">
-    <div class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 3a2.2 2.2 0 0 1 2.2 2.2c0 .4-.1.7-.3 1 .2.3.5.4.9.4h2.3c.5 0 .9.4.9.9v2.3c0 .4.1.7.4.9.3.2.6.3 1 .3A2.2 2.2 0 0 1 21 13.2a2.2 2.2 0 0 1-2.2 2.2c-.4 0-.7-.1-1-.3-.3.2-.4.5-.4.9v2.6c0 .5-.4.9-.9.9h-2.6c-.4 0-.7-.1-.9-.4-.2-.3-.3-.6-.3-1a2.2 2.2 0 0 0-2.2-2.2 2.2 2.2 0 0 0-2.2 2.2c0 .4.1.7.3 1-.2.3-.5.4-.9.4H3.9a.9.9 0 0 1-.9-.9v-2.6c0-.4.1-.7.4-.9.3-.2.6-.3 1-.3a2.2 2.2 0 0 0 0-4.4c-.4 0-.7.1-1 .3-.3-.2-.4-.5-.4-.9V7.5c0-.5.4-.9.9-.9h2.6c.4 0 .7-.1.9-.4.2-.3.3-.6.3-1A2.2 2.2 0 0 1 11 3Z"/></svg></span> Puzzle&nbsp;Strategy</div>
+    <div class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 3a2.2 2.2 0 0 1 2.2 2.2c0 .4-.1.7-.3 1 .2.3.5.4.9.4h2.3c.5 0 .9.4.9.9v2.3c0 .4.1.7.4.9.3.2.6.3 1 .3A2.2 2.2 0 0 1 21 13.2a2.2 2.2 0 0 1-2.2 2.2c-.4 0-.7-.1-1-.3-.3.2-.4.5-.4.9v2.6c0 .5-.4.9-.9.9h-2.6c-.4 0-.7-.1-.9-.4-.2-.3-.3-.6-.3-1a2.2 2.2 0 0 0-2.2-2.2 2.2 2.2 0 0 0-2.2 2.2c0 .4.1.7.3 1-.2.3-.5.4-.9.4H3.9a.9.9 0 0 1-.9-.9v-2.6c0-.4.1-.7.4-.9.3-.2.6-.3 1-.3a2.2 2.2 0 0 0 0-4.4c-.4 0-.7.1-1 .3-.3-.2-.4-.5-.4-.9V7.5c0-.5.4-.9.9-.9h2.6c.4 0 .7-.1.9-.4.2-.3.3-.6.3-1A2.2 2.2 0 0 1 11 3Z"/></svg></span> Viktor&nbsp;Zemene</div>
     <nav>
       <a href="#kouovani" class="hideable">Co je koučování</a>
       <a href="#viktor" class="hideable">O mně</a>
@@ -243,7 +243,7 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <div class="eyebrow">Puzzle Strategy · kouč Viktor Zemene</div>
+        <div class="eyebrow">Kouč · Viktor Zemene</div>
         <h1>Poskládat dílky do jasnějšího rozhodnutí.</h1>
         <p class="lead">Jsem kouč. Provázím lidi, kteří chtějí vidět celý obraz své situace — a klidněji udělat další tah.</p>
         <div class="hero-actions">
@@ -333,11 +333,11 @@
         </div>
         <div class="card">
           <h3>Koučovací sezení</h3>
-          <div class="price">dohodou</div><div class="per">60 minut · online i osobně</div>
+          <div class="price">dohodou</div><div class="per">typicky 45 minut · online i osobně</div>
           <ul>
             <li>Práce s konkrétním cílem</li>
             <li>Otázky, struktura, kroky</li>
-            <li>Doporučeno 4–6 sezení</li>
+            <li>U náročnějšího tématu lze dvě sezení hned po sobě (90 min)</li>
           </ul>
         </div>
         <div class="card">
@@ -375,7 +375,8 @@
           <label for="typ">Typ sezení</label>
           <select id="typ" name="typ">
             <option value="Úvodní sezení (30 min, zdarma)" data-min="30">Úvodní sezení · 30 min · zdarma</option>
-            <option value="Koučovací sezení (60 min)" data-min="60">Koučovací sezení · 60 min</option>
+            <option value="Koučovací sezení (45 min)" data-min="45">Koučovací sezení · 45 min</option>
+            <option value="Koučovací sezení — náročnější téma (2× 45 min)" data-min="90">Koučovací sezení · náročnější téma · 90 min</option>
             <option value="Konzultace (90 min)" data-min="90">Konzultace · 90 min</option>
           </select>
         </div>
@@ -411,7 +412,7 @@
 
 <footer>
   <div class="wrap">
-    <div>Puzzle Strategy — kouč Viktor Zemene</div>
+    <div>Viktor Zemene — kouč</div>
     <button class="theme-toggle" id="themeToggle" type="button">Přepnout motiv</button>
   </div>
 </footer>
@@ -463,7 +464,7 @@
 
     var title = "Sezení s Viktorem Zemene — " + typ.replace(/\s*\(.*\)/, "");
     var detailLines = [
-      "Rezervace přes web Puzzle Strategy.",
+      "Rezervace koučovacího sezení přes web.",
       "Typ: " + typ,
       jmeno ? "Klient: " + jmeno : "",
       pozn ? "Téma: " + pozn : "",
